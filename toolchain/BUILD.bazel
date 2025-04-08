@@ -17,10 +17,10 @@ toolchain(
     toolchain_type = "//toolchain:protoc",
 )
 
-protoc(
-    name = "compiled",
-    tool = "@com_google_protobuf//:protoc",
-)
+#protoc(
+#    name = "compiled",
+#    tool = "@com_google_protobuf//:protoc",
+#)
 
 protoc(
     name = "precompiled",
